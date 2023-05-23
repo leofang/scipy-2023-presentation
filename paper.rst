@@ -420,8 +420,8 @@ An array shape specifies the number of elements along each array axis (also
 referred to as "dimension"). The number of axes corresponds to the
 dimensionality (or "rank") of an array. For example, a shape `(10,)` is a
 1-dimensional array containing 10 elements; a shape `(3, 5)` array is a
-2-dimensional array whose inner dimension contains 5 elements and whose outer
-dimension contains 3 elements. 0-dimensional arrays (i.e., arrays with shape
+2-dimensional array whose the first axis contains 3 elements and the second
+axis contains 5 elements. 0-dimensional arrays (i.e., arrays with shape
 `()` that consist of a single element) are fully supported. There is no
 dictinct notion of "array scalars" as in NumPy, as these are not implemented
 in other libraries.
